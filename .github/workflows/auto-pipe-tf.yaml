@@ -28,7 +28,7 @@ jobs:
       - name: Terraform Init
         run: terraform  init
        
-    # Generates an execution plan for Terraform
+    # start terrform plan apply steps
       - name: Terraform Plan
         run: terraform  plan -input=false
         
