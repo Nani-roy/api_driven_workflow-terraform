@@ -2,10 +2,7 @@ name: auto run  pipeline
 on:
   push:
     branches:
-      - main
-        options:
-         - "apply"
-         - "destroy"    
+      - main    
 permissions:
   contents: 'read'
   id-token: 'write'
