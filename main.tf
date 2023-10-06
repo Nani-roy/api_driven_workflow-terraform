@@ -6,11 +6,11 @@ terraform {
     }
   }
   required_version = "~> 1.5.6"
-  cloud {
-    organization = "mevijay"
+ cloud {
+    organization = "nani_roy"
 
     workspaces {
-      name = "vcstfcli"
+      name = "api_cli"
     }
   }
 }
@@ -18,8 +18,8 @@ terraform {
 provider "aws" {
 region =  "us-east-2"
 }
-/*
+
 resource "aws_vpc" "main" {
   cidr_block = "192.168.10.0/24"
 }
-*/
+
